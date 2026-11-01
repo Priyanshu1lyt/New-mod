@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nhud",
+  "version": "${version}",
+  "name": "NotHeartYT HUD",
+  "description": "Inventory HUD, Potion HUD and Armor HUD with a full config screen and drag-and-drop positioning.",
+  "authors": ["NotHeartYT"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.notheartyt.nhud.NHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
